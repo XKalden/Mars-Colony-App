@@ -1,0 +1,64 @@
+.backGround{
+    background: url("./image/mars.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    font-family: 'Audiowide', cursive;
+}
+
+@keyframes border-pulse {
+    0% {
+      box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.2),
+        0 0 0 2rem rgba(255, 255, 255, 0.15), 0 0 0 3rem rgba(255, 255, 255, 0.2);
+    }
+  
+    50% {
+      box-shadow: 0 0 0 1.25rem rgba(255, 255, 255, 0.3),
+        0 0 0 2.75rem rgba(255, 255, 255, 0.1), 0 0 0 4rem rgba(255, 255, 255, 0);
+    }
+    75% {
+      box-shadow: 0 0 0 1.5rem rgba(255, 255, 255, 0.4),
+        0 0 0 3rem rgba(255, 255, 255, 0), 0 0 0 5rem rgba(255, 255, 255, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 1.75rem rgba(255, 255, 255, 0.3),
+        0 0 0 3.75rem rgba(255, 255, 255, 0), 0 0 0 6rem rgba(255, 255, 255, 0);
+    }
+  }
+
+
+.backGround h1{
+    font-size: 5em;
+  
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+                 0px 8px 10px rgba(0,0,0,0.4);
+
+}
+
+.backGround h2{
+    font-size: 2em;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+                 0px 8px 10px rgba(0,0,0,0.4);
+
+}
+  
+.start_button{
+    animation: border-pulse 2s infinite;
+    background: white;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    position: relative;
+    opacity: 0.9; 
+  
+}
